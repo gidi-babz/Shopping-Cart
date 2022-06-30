@@ -5,7 +5,7 @@ import Layout from './components/Layout/Layout';
 import Products from './components/Shop/Products';
 
 function App() {
-	const cartHidden = useSelector((state) => state.showCart.showCart);
+	const cartHidden = useSelector((state) => state.ui.showCart);
 
 	return (
 		<Layout>
